@@ -1,3 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Shadows+Into+Light&display=swap");
 .MainNav {
   background-color: pink;
+  justify-items: left;
+  padding: 0%;
+}
+.Name {
+  font-family: "Dancing Script", cursive;
+  font: bold;
+  font-size: 48px;
+  width: 50%;
+}
+.NavLinks {
+  width: 50%;
+  height: 60px;
+  padding: 10px;
+  justify-content: space-evenly;
+  text-align: center;
+  font-family: "Courgette", cursive;
+  font-size: 24px;
+  font: bold;
+}
+.Nav-logo {
+  height: 7vmin;
+  padding: 1px;
+  margin: 10px;
 }

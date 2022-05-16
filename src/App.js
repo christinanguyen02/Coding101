@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import Kuromi from "./Kuromi.png";
+import Christina from "./christina.jpeg";
 import "./App.css";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
             <Row>
               <Col>
                 {" "}
-                <img src={Kuromi} className="App-logo" alt="logo" />
+                <img src={Christina} className="Main-photo" alt="" />
                 <p>
                   Edit <code>src/App.js</code> ajajjajajaj.
                 </p>{" "}
