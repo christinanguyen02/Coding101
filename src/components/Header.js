@@ -2,7 +2,6 @@ import React from "react";
 import "./header.css";
 import { Container, Navbar, Nav, NavLink } from "react-bootstrap";
 import Kuromi from "../Kuromi.png";
-
 export default function Header() {
   return (
     <div>
