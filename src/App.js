@@ -12,19 +12,14 @@ function App() {
               <Col>
                 {" "}
                 <img src={Christina} className="Main-photo" alt="" />
-                <p>
-                  Edit <code>src/App.js</code> ajajjajajaj.
-                </p>{" "}
+                <p>Picture taken at Japanese Tea Garden.</p>{" "}
               </Col>
               <Col>
-                <a
-                  className="App-link"
-                  href="https://reactjs.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Learn React
-                </a>
+                <h1 className="Introduction">Hi! I'm Christina Nguyen</h1>
+                <p className="Body">
+                  welcome to my website :) it is a work in progress
+                  <p>don't judge, i'm a newbie coder</p>
+                </p>
               </Col>
             </Row>
           </Container>
