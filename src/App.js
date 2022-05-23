@@ -14,8 +14,8 @@ function App() {
                 <img src={Christina} className="Main-photo" alt="" />
                 <p>Picture taken at Japanese Tea Garden.</p>{" "}
               </Col>
-              <Col>
-                <h1 className="Introduction">Hi! I'm Christina Nguyen</h1>
+              <Col className="Intro">
+                <h1>Hi! I'm Christina Nguyen</h1>
                 <p className="Body">
                   welcome to my website :) it is a work in progress
                   <p>don't judge, i'm a newbie coder</p>

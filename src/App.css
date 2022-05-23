@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  justify-content: center;
 }
 
 .Main-photo {
@@ -18,4 +19,12 @@
 }
 p {
   font-size: 15px;
+}
+.Intro {
+  align-content: center;
+  justify-content: center;
+  padding-top: 20%;
+}
+.body {
+  align-content: center;
 }

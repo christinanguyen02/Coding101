@@ -1,15 +1,11 @@
 import React from "react";
 import "./header.css";
 import { Container, Navbar, Nav, NavLink } from "react-bootstrap";
-import Kuromi from "../Kuromi.png";
 export default function Header() {
   return (
     <div>
       <Navbar className="MainNav">
-        <Container>
-          <a href="/">
-            <img src={Kuromi} className="Nav-logo" alt="" />
-          </a>
+        <Container className="container">
           <Navbar.Brand className="Name" href="/">
             Christina Nguyen
           </Navbar.Brand>

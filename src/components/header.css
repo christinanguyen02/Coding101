@@ -3,26 +3,23 @@
 .MainNav {
   background-color: pink;
   justify-items: left;
-  padding: 0%;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
 .Name {
   font-family: "Dancing Script", cursive;
   font: bold;
   font-size: 48px;
-  width: 50%;
+  width: 100%;
+  text-align: center;
+  padding: 0%;
 }
 .NavLinks {
-  width: 50%;
-  height: 60px;
-  padding: 10px;
+  width: 100%;
   justify-content: space-evenly;
   text-align: center;
   font-family: "Courgette", cursive;
   font-size: 24px;
   font: bold;
-}
-.Nav-logo {
-  height: 7vmin;
-  padding: 1px;
-  margin: 10px;
 }
