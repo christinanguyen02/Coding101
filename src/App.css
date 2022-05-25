@@ -2,13 +2,6 @@
 .App {
   text-align: center;
   justify-content: center;
-}
-
-.Main-photo {
-  height: 80vmin;
-}
-
-.App-header {
   background-color: #221d24;
   min-height: 100vh;
   display: flex;
@@ -18,7 +11,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-p {
+
+.Main-photo {
+  height: 80vmin;
+  margin-top: 5%;
+}
+
+.caption {
   font-size: 15px;
 }
 .Intro {
@@ -31,4 +30,8 @@ p {
   font-size: 40px;
   font-family: "Courgette", cursive;
   margin: 0%;
+}
+.Body > img {
+  height: 275px;
+  padding-top: 3%;
 }
