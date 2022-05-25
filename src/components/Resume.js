@@ -10,7 +10,7 @@ export default function Resume() {
       <div className="ResumePage">
         <Container fluid>
           <Row className="intro">
-            <p> Resume</p>
+            <p className="Text"> Resume</p>
           </Row>
           <div className="picture">
             <a href={pdf} target="_blank" rel="noreferrer">

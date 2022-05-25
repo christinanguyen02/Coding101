@@ -15,10 +15,9 @@ function App() {
                 <p>Picture taken at Japanese Tea Garden.</p>{" "}
               </Col>
               <Col className="Intro">
-                <h1>Hi! I'm Christina Nguyen</h1>
                 <p className="Body">
-                  welcome to my website :) it is a work in progress
-                  <p>don't judge, i'm a newbie coder</p>
+                  Hi! :) <br></br>Welcome to my website! <br></br>I'm Christina
+                  Nguyen! :)
                 </p>
               </Col>
             </Row>

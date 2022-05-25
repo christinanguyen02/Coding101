@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
 .ResumePage {
   background-color: #221d24;
   min-height: 100vh;
@@ -7,10 +9,17 @@
 }
 
 .picture {
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
 }
 
 .intro {
-  padding: 10%;
-  align-content: flex-start;
+  align-content: left;
+  padding-left: 10%;
+  padding-top: 5%;
+  font-family: "Courgette", cursive;
+}
+.Text {
+  font-size: 38px;
 }

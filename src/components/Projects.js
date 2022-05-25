@@ -4,7 +4,10 @@ import "./projects.css";
 export default function Projects() {
   return (
     <>
-      <div className="ProjectsPage">Projects</div>;
+      <div className="ProjectsPage">
+        <p className="pagetext">In Progress...</p>
+      </div>
+      ;
     </>
   );
 }

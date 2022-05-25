@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
 .ProjectsPage {
   background-color: #221d24;
   min-height: 100vh;
@@ -7,4 +9,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.pagetext {
+  font-family: "Courgette", cursive;
+  font-size: 36px;
 }

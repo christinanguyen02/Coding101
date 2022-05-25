@@ -1,10 +1,21 @@
 .AboutPage {
   background-color: #221d24;
+  background-color: #221d24;
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: left;
   color: white;
+}
+.aboutIntro {
+  align-content: left;
+  padding-top: 5%;
+  font-family: "Courgette", cursive;
+}
+.aboutText {
+  font-size: 38px;
+}
+.w-100 {
+  width: 500px !important;
+  height: 400px;
+  margin: auto;
 }
