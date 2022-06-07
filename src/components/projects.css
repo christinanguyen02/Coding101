@@ -11,9 +11,12 @@
 .pagetext {
   font-family: "Courgette", cursive;
   font-size: 40px;
-  margin-top: 16px;
-  margin-left: 16px;
   color: white;
+  align-content: left;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-bottom: 1%;
+  font-family: "Courgette", cursive;
 }
 .Kuro {
   height: 75px;
