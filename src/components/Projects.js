@@ -4,6 +4,7 @@ import cube from "../kurocube.png";
 import { Row, Col, Card, Container, Button } from "react-bootstrap";
 import background from "../blackbackground.jpeg";
 import GenZ from "../GenZ.png";
+import Animation from "../Animation.png";
 
 export default function Projects() {
   return (
@@ -39,11 +40,21 @@ export default function Projects() {
             </Col>
             <Col className="single" align="center">
               <Card style={{ width: "25rem" }}>
-                <Card.Img variant="top" src={background} />
+                <Card.Img variant="top" src={Animation} />
                 <Card.Body>
-                  <Card.Title>In Progress</Card.Title>
-                  <Card.Text>...</Card.Text>
-                  {/* <Button variant="primary">Go somewhere</Button> */}
+                  <Card.Title>Graphic Animation</Card.Title>
+                  <Card.Text>
+                    Graphic Animation created using javascript and processing.
+                  </Card.Text>
+                  {
+                    <Button
+                      variant="secondary"
+                      href="https://github.com/Abdon02/cs324eCAS/tree/main/group_3_assignment4"
+                      target="_blank"
+                    >
+                      See More
+                    </Button>
+                  }
                 </Card.Body>
               </Card>
             </Col>
