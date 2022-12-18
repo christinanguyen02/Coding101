@@ -5,6 +5,7 @@ import { Row, Col, Card, Container, Button } from "react-bootstrap";
 import background from "../blackbackground.jpeg";
 import GenZ from "../GenZ.png";
 import Animation from "../Animation.png";
+import Pong from "../PongGame.png";
 
 export default function Projects() {
   return (
@@ -44,7 +45,8 @@ export default function Projects() {
                 <Card.Body>
                   <Card.Title>Graphic Animation</Card.Title>
                   <Card.Text>
-                    Graphic Animation created using javascript and processing.
+                    Graphic Animation created using javascript and processing
+                    for a class assignment.
                   </Card.Text>
                   {
                     <Button
@@ -60,11 +62,76 @@ export default function Projects() {
             </Col>
             <Col className="single" align="center">
               <Card style={{ width: "25rem" }}>
+                <Card.Img variant="top" src={Pong} />
+                <Card.Body>
+                  <Card.Title>Pong Game</Card.Title>
+                  <Card.Text>
+                    Pong is a simulation of table tennis game created using
+                    javascript and processing for a class project.
+                  </Card.Text>
+                  {
+                    <Button
+                      variant="secondary"
+                      href="https://drive.google.com/file/d/1eOe_mn0ogun7xgGD17XEJwJRwchVuEGZ/view?usp=share_link"
+                      target="_blank"
+                    >
+                      See More
+                    </Button>
+                  }
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+          <Row>
+            <p></p>
+          </Row>
+          {/* second row of projects */}
+          <Row className="projectcards">
+            <Col className="single" align="center">
+              <Card style={{ width: "25rem" }}>
                 <Card.Img variant="top" src={background} />
                 <Card.Body>
                   <Card.Title>In Progress</Card.Title>
                   <Card.Text>...</Card.Text>
-                  {/* <Button variant="primary">Go somewhere</Button> */}
+                  {/* <Button
+                    variant="secondary"
+                    href=""
+                    target="_blank"
+                  >
+                    See More
+                  </Button>   */}
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="single" align="center">
+              <Card style={{ width: "25rem" }}>
+                <Card.Img variant="top" src={background} />
+                <Card.Body>
+                  <Card.Title>In Progress</Card.Title>
+                  <Card.Text>...</Card.Text>
+                  {/* <Button
+                    variant="secondary"
+                    href=""
+                    target="_blank"
+                  >
+                    See More
+                  </Button>   */}
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="single" align="center">
+              <Card style={{ width: "25rem" }}>
+                <Card.Img variant="top" src={background} />
+                <Card.Body>
+                  <Card.Title>In Progress</Card.Title>
+                  <Card.Text>...</Card.Text>
+                  {/* <Button
+                    variant="secondary"
+                    href=""
+                    target="_blank"
+                  >
+                    See More
+                  </Button>   */}
                 </Card.Body>
               </Card>
             </Col>
