@@ -22,20 +22,23 @@ export default function About() {
         <Row className="description">
           <p>
             Hi, I'm Christina Nguyen. I am a current student at the University
-            of Texas at Austin. I am currently pursuing a Biochemistry degree
-            and a Computation Science certificate.
+            of Texas at Austin. I am currently pursuing a Bachelor of Science in
+            Biochemistry with an Elements of Computing certificate.
             <br></br>
           </p>
           <p>
             I am currently working as a Course Grader for the University of
             Texas OnRamps program. Also, I volunteer at the Baylor Scott and
-            White Medical Center in Austin.
-            <br></br>
+            White Medical Center in Austin. Furthermore, I just crossed into
+            Sigma Phi Omega, an asian-interest sorority at the University of
+            Texas at Austin. If you're interested about learning more check out
+            our website <a>https://www.txsigmas.com/</a> or linktree
+            <a>https://linktr.ee/texassigmas</a>.<br></br>
           </p>
           <p>
             In my free time, I like to code and work on projects, read, watch
             k-dramas and anime, workout, play tennis, and bullet journal. Also,
-            I really like plushies and Kuromi from Sanrio!
+            I really like Kuromi from Sanrio!
           </p>
         </Row>
       </div>
