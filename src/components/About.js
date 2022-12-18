@@ -39,8 +39,9 @@ export default function About() {
           </p>
           <p>
             In my free time, I like to code and work on projects, read, watch
-            k-dramas and anime, workout, play tennis, and bullet journal. Also,
-            I really like Kuromi from Sanrio!
+            k-dramas and anime, workout, play tennis, travel, go to concert and
+            festivals, and bullet journal. Also, I really like Kuromi from
+            Sanrio!
           </p>
         </Row>
       </div>
