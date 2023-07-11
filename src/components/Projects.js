@@ -91,8 +91,8 @@ export default function Projects() {
               <Card style={{ width: "25rem" }}>
                 <Card.Img variant="top" src={background} />
                 <Card.Body>
-                  <Card.Title>In Progress</Card.Title>
-                  <Card.Text>...</Card.Text>
+                  <Card.Title>TicTacToe Game</Card.Title>
+                  <Card.Text>An online version of tic tac toe.</Card.Text>
                   {/* <Button
                     variant="secondary"
                     href=""

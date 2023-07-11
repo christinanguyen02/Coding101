@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Tic-Tac-Toe</title>
+    <meta charset="UTF-8">
+    <meta name="Exam 2" content="A online tic-tac-toe game">
+    <link href="tictactoe.css" rel="stylesheet" />
+    <script src="tictactoe.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>Tic Tac Toe</h1>
+    </div>
+    <div id="scoreboard">
+        <h2>Scoreboard</h2>
+
+    </div>
+
+    <table id="tictactoe">
+        <tbody>
+            <tr>
+                <td>
+                    <button data-row="0" data-column="0">0</button>
+                </td>
+                <td>
+                    <button data-row="0" data-column="1">1</button>
+                </td>
+                <td>
+                    <button data-row="0" data-column="2">2</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button data-row="1" data-column="0">3</button>
+                </td>
+                <td>
+                    <button data-row="1" data-column="1">4</button>
+                </td>
+                <td>
+                    <button data-row="1" data-column="2">5</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button data-row="2" data-column="0">6</button>
+                </td>
+                <td>
+                    <button data-row="2" data-column="1">7</button>
+                </td>
+                <td>
+                    <button data-row="2" data-column="2">8</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="controls">
+        <button class="replay" onclick="clearBoard()">Replay</button>
+    </div>
+</body>
+
+</html>
