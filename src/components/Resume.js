@@ -23,7 +23,7 @@ export default function Resume() {
                 <img src={resumePic} className="pic" alt="" />
               </Row>
             </a>
-            <p>last updated Apr. 2023</p>
+            <p>last updated July 2023</p>
           </div>
           <Row className="footer">
             <p></p>
