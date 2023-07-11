@@ -6,6 +6,7 @@ import background from "../blackbackground.jpeg";
 import GenZ from "../GenZ.png";
 import Animation from "../Animation.png";
 import Pong from "../PongGame.png";
+import ticSite from "../tictactoe/tictactie.html";
 
 export default function Projects() {
   return (
@@ -93,13 +94,9 @@ export default function Projects() {
                 <Card.Body>
                   <Card.Title>TicTacToe Game</Card.Title>
                   <Card.Text>An online version of tic tac toe.</Card.Text>
-                  {/* <Button
-                    variant="secondary"
-                    href=""
-                    target="_blank"
-                  >
+                  <Button variant="secondary" onClick={ticSite} target="_blank">
                     See More
-                  </Button>   */}
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
